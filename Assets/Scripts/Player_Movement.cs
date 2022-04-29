@@ -117,8 +117,6 @@ public class Player_Movement : MonoBehaviour
     }
 
 
-
-
     //funcion para Comparar si esta o no en rampa y deslizarse
     public void SlideDown()
     {
@@ -132,6 +130,7 @@ public class Player_Movement : MonoBehaviour
             movePlayer.y += SlopeForceDown;
         }
     }
+
 
     //funcion para detectar normales
     private void OnControllerColliderHit(ControllerColliderHit hit)
