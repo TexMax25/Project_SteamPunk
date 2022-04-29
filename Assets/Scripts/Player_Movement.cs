@@ -62,6 +62,7 @@ public class Player_Movement : MonoBehaviour
 
         anim.SetFloat("VelX", HorizontalMove);
         anim.SetFloat("VelY", VerticalMove);
+        
 
         
       
